@@ -1,11 +1,9 @@
-# Dopefolio 🔥
+# The Greene School of Music Portfolio Website
 
-## A Blazing Fast Multipage Portfolio Template for Developers 🚀
-
-## [Demo Link](https://dopefolio.netlify.app) 🔗
+## A Blazing Fast Multipage Portfolio Template
 
 <div align="center">
-  <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Dopefolio Demo" width="100%" />
+  <img src="https://i.postimg.cc/CxZXqhWM/ezgif-com-video-to-gif-1.gif" alt="Portfolio Demo" width="100%" />
   <br>
 </div>
 
@@ -13,18 +11,6 @@
 <br/>
 
 ---
-
-<br/>
-
-## ( Update ): Project Achievement 🏆 
-
-**Dopefolio** has been listed as the **Hottest Frontend Tool of 2021** According to **CSS Tricks** 🥳. Thanks to all of you for supporting this project 🙌
-
-**[Link to the CSS tricks article on Dopefolio](https://css-tricks.com/hottest-front-end-tools-in-2021/#aa-58-dopefolio)**   
-
-<br/>
-
-----
 
 <br/>
 
@@ -39,20 +25,9 @@
 - ### **Super Fast and Optimized for SEO ⚡** 
 - ### **Great Audits Score 🎖️** 
 
-<img src="https://i.ibb.co/1dD8Mky/Screenshot-from-2021-08-28-14-38-30.png" alt="Dopefolio Audits" width="100%" />
+<img src="https://i.ibb.co/1dD8Mky/Screenshot-from-2021-08-28-14-38-30.png" alt="Portfolio Audits" width="100%" />
 
 <br/>
-<br/>
-
-## Test the template with different colors on the playground link 🚀
-
-## [Playground Link](https://dopefolio-playground.netlify.app) 🔗
-
-<div align="center">
-  <img src="https://i.postimg.cc/xjsqN9GG/ezgif-com-gif-maker-2.gif" alt="Dopefolio Playground" width="100%" />
-  <br>
-</div>
-
 <br/>
 
 ----
