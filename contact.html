@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Xander Greene Personal Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/profile.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Xander Greene</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./conferences.html" class="header__link"> Conferences </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./biography.html" class="header__link"> Biography </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./student_work.html" class="header__link"> Student Work </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./contact.html" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./conferences.html"> Conferences </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./biography.html"> Biography </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./student_work.html"> Student Work </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./contact.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Please let us know if you have any questions, concerns, feedback, or are interested in hosting Xander as a speaker.
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="mailto:mistergreene91@gmail.com" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Contact Information</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                <br><br><br>
+                <strong>For questions, you can utilize the form above or feel free to check out Xander's socials or utilize the email address below.<br>
+                        Email: mistergreene91@gmail.com</strong>
+              </p>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <center>
+              <h3 class="about__content-title">Xander Greene's Socials</h3>
+              <a href="https://www.youtube.com/channel/UCzUkGsWljDY84YGoopBxqjA"><i class="fa-brands fa-youtube fa-7x" style="color: rgb(155, 126, 189); padding: 0 25px"></i></a>     
+              <a href=""><i class="fa-brands fa-instagram fa-7x" style="color: rgb(155, 126, 189); padding: 0 25px"></i></a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <div class="main-footer__social-cont">
+              <!--
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              -->
+              <!--
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              -->
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">The Greene Studio of Music</h4>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2025 The Greene Studio of Music
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/87e440d61e.js" crossorigin="anonymous"></script>
+  </body>
+</html>
