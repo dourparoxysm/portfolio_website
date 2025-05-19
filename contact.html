@@ -99,14 +99,14 @@
         <div class="contact__form-container">
           <form action="send_email.php" class="contact__form" method="post">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
+              <label class="contact__form-label" for="firstName">Name</label>
               <input
                 required
                 placeholder="Enter Your Name"
                 type="text"
                 class="contact__form-input"
-                name="name"
-                id="name"
+                name="firstName"
+                id="firstName"
               />
             </div>
             <div class="contact__form-field">
@@ -114,7 +114,7 @@
               <input
                 required
                 placeholder="Enter Your Email"
-                type="text"
+                type="email"
                 class="contact__form-input"
                 name="email"
                 id="email"
@@ -132,9 +132,7 @@
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
+            <input type="submit" class="btn btn--theme contact__btn" value="Submit">
           </form>
         </div>
       </div>
