@@ -97,16 +97,16 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="send_email.php" class="contact__form" method="post">
+          <form action="https://formsubmit.co/mistergreene91@gmail.com" class="contact__form" method="POST">
             <div class="contact__form-field">
-              <label class="contact__form-label" for="firstName">Name</label>
+              <label class="contact__form-label" for="name">Name</label>
               <input
                 required
                 placeholder="Enter Your Name"
                 type="text"
                 class="contact__form-input"
-                name="firstName"
-                id="firstName"
+                name="name"
+                id="name"
               />
             </div>
             <div class="contact__form-field">
@@ -132,7 +132,9 @@
                 id="message"
               ></textarea>
             </div>
-            <input type="submit" class="btn btn--theme contact__btn" value="Submit">
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
           </form>
         </div>
       </div>
